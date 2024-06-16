@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(2, 2, 66);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 8, 118);
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li
+{
+  list-style: none;
+  margin: 0 23px;
+
+}
+nav ul li a
+{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover
+{
+  color:rgb(123, 123, 248);
+  font-size: 1.02rem;
+}
+.left
+{
+    font-size: 2rem;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.left a:hover {
+    color:#9c97f1;
+    font-size: 2.1rem;
+}
+.firstsection
+{
+ display: flex;
+ justify-content: space-around;
+ margin: 90px 0;
+ align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2rem;
+    
+}
+.leftsection .buttons{
+    padding: 23px 0;
+}
+.leftsection .btn{
+    padding: 5px 10px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    /* margin: 12px -2px; */
+
+}
+.rightsection img{
+    width: 500px;
+    height: 0%;
+    /* margin: 50px 0; */
+}
+.purple{
+    color: rgb(203, 14, 203);
+}
+.purple1{
+    color: rgb(125, 14, 229);
+}
+.red{
+    color: rgb(243, 13, 13);
+}
+#element{
+    color: rgb(8, 8, 223);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 46vh;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.gray{
+         color: gray;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -36px;
+    left: -12px;
+}
+
+.vertical-titel{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color: #141657;
+    /* height: 233px; */
+}
+.footer{
+    display: flex;
+    margin: 70px;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footerc ul{
+    list-style: none;
+}
+.footer > div{
+    width: 233px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding:12px 0 ;
+}
+.footer-first{
+    font-size: 30px;
+}
